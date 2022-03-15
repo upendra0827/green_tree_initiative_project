@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    margin: 2rem;
+    color: #354463;
+}
+
+.hope h1 {
+    color: #354463;
+    text-align: center;
+    padding: 2rem 0 0 0;
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+.payment_page {
+    background: url('./assets/donation/annie-spratt-427340-unsplash.png');
+}
+
+.donate .hope h1 {
+    color: white;
+    text-align: center;
+}
+
+.donation {
+    background: #354463;
+    color: white;
+    margin: 2rem;
+    padding: 2rem;
+}
+
+.donor_information {
+    font-size: 1.75rem;
+    margin: 0 0 1rem 0;
+}
+
+.donate form, .payment form{
+    margin: 0 0 1rem 0;
+}
+
+input {
+    padding: 1rem 0 1rem 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #C1F7D5;
+    background: #354463;
+    width: 100%;
+}
+.donate {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.fname_block, .lname_block  {
+    width: 50%;
+}
+
+.address_block, .state_block, .zip_block, .city_block {
+    width: 75%;
+}
+
+.fname_block :nth-child(1), .lname_block :nth-child(1) {
+    width: 150%;
+}
+
+.last_process {
+    margin: 2rem 0 1rem 0;
+}
+
+.last_process p {
+    font-size: 1.5rem;
+    padding: 0 0 1rem 0;
+}
+
+.last_process .payment_button button {
+    text-align: center;
+    padding: 1rem;
+    border-radius: 30px;
+    border: none;
+    background: #C1F7D5;
+}
+
+.last_process .back_button button {
+    color: #C1F7D5;
+    background: #354463;
+    border: none;
+    padding: 1rem;
+    text-decoration: underline;
+}
+
+.payment_header {
+    margin: 1rem 0 1rem 0;
+    font-size: 2rem;
+}
+
+footer .container {
+    margin: 2rem;
+    color: #354463;
+}
+
+footer .boxes {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+footer li {
+    list-style: none;
+    text-decoration: underline;
+}
+
+footer .box {
+    padding: 2rem;
+}
+
+footer .end {
+    grid-column: 2/3;
+    margin: 2rem auto auto 2rem;
+}
+
+footer .end p {
+    font-size: 2rem;
+    font-style: italic;
+}
+
+.email_block {
+    grid-column: 1/3;
+}
+
+@media (min-width: 768px) {
+    .one {
+        /* grid-column: 1/2; */
+        /* grid-row: 1/4; */
+    }
+
+    footer .boxes{
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+
+    footer .one {
+        grid-area: 1 / auto / 3 / auto;
+    }
+
+    footer .end {
+        grid-column: 3 / 4;
+    }
+
+    /* footer .end_note { */
+        /* float: right; */
+    /* } */
+}
+
+@media (min-width: 1440px) {
+    .donate_block {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .hope h1 {
+        font-size: 4rem;
+        margin: 20rem 2rem 0 4rem;
+    }
+
+    footer .boxes {
+        display: flex;
+        /* padding: 0; */
+    }
+
+    footer .box {
+        margin: 0;
+    }
+    footer .one {
+        width: 100%;
+    }
+
+    footer .two, footer .three,footer .four {
+        position: relative;
+        /* left: -1rem; */
+        width: 100%;
+    }
+
+    footer h2 {
+        margin: auto auto 1rem auto;
+        border-bottom: 1px solid #354463;
+        /* font-size: 0rem; */
+    }
+
+    footer li {
+        text-decoration: none;
+    }
+
+    footer .end {
+        margin: auto auto auto 3rem;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
